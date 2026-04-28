@@ -20,11 +20,11 @@ Find out more about Swagger: [https://swagger.io](https://swagger.io)
 If you are building with .NET CLI tools then you can also use the following command:
 
 ```bash
-dotnet add package LinkPaymentsSDK --version 9.0.0
+dotnet add package LinkPaymentsSDK --version 10.0.0
 ```
 
 You can also view the package at:
-https://www.nuget.org/packages/LinkPaymentsSDK/9.0.0
+https://www.nuget.org/packages/LinkPaymentsSDK/10.0.0
 
 ## Initialize the API Client
 
