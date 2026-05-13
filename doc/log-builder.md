@@ -21,14 +21,14 @@ To use a custom logger, you can provide any implementation of Microsoft.Extensio
 
 ```csharp
 using Microsoft.Extensions.Logging;
-using SwaggerPetstoreOpenApi30.Standard;
+using ApimaticCalculator.Standard;
 
 namespace ConsoleApp;
 
 var factory = LoggerFactory.Create(builder => { builder.AddConsole(); });
-var logger = factory.CreateLogger<SwaggerPetstoreOpenApi30Client>();
+var logger = factory.CreateLogger<ApimaticCalculatorClient>();
 
-var client = new SwaggerPetstoreOpenApi30Client.Builder()
+var client = new ApimaticCalculatorClient.Builder()
     .LoggingConfig(config => config
         .Logger(logger)
         .LogLevel(LogLevel.Information)
